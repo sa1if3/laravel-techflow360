@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Techflow360 Laravel Tutorial <br/>
+                    <a href="{{ url('/students') }}">Examples</a>
+                    
                 </div>
 
                 <div class="links">

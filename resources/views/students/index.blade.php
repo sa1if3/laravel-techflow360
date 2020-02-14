@@ -4,7 +4,8 @@
 <div class="row">
 <div class="col-sm-12">
     <h1 class="display-3">Students</h1>    
-    <a class="btn btn-primary" href="{{route('students.create')}}">ADD A NEW STUDENT</a>
+    <a class="btn btn-primary" href="{{route('students.create')}}">Add a New Student</a>
+    <a class="btn btn-success" href="{{route('liveSearchExample')}}">Live Search</a>
   <table class="table table-striped">
     <thead>
         <tr>

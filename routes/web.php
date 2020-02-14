@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('students', 'StudentController');
+Route::get('/liveSearchExample', function () {return view('students/liveSearchExample'); })->name('liveSearchExample');
+Route::post('liveStudentSearch', 'liveSearchContoller@liveStudentSearch')->name('liveStudentSearch');
